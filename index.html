@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./src/index.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversor de Unidades</title>
+  </head>
+  <body>
+    <div id="root">
+        <label>Magnitud:
+          <select id="magnitude">
+          </select>
+        </label>
+        <label>Convertir
+          <input type="number" id="value"/>
+          <select id="input-unit">
+          </select>
+          en
+          <select id="output-unit">
+          </select>:
+          <label id="transformed-value"></label>
+        </label>
+    </div>
+    <script type="module" src="./dist/main.js"></script>
+  </body>
+</html>
