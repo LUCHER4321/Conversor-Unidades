@@ -1,4 +1,4 @@
-import { conversions } from "./conversions";
+import { conversions } from "./conversions.js";
 
 const magnitudes = [...conversions.keys()];
 let magnitude = magnitudes.length > 0 ? magnitudes[0] : "";
